@@ -1,4 +1,4 @@
-public class Lesson4{
+public class Main{
     public static void main(String[] args){
         Person[] person = new Person[5];
         person[0] = new Person("Киселёв","Евгений", "Дмитриевич", "геодезист", "kisel@gmail.com", "89114433225", 70000, 30);
