@@ -68,6 +68,6 @@ public class TestMtsBy {
         inputSumLocator.sendKeys("50");
         WebElement buttonLocator = driver.findElement(By.xpath("//*[@id=\"pay-connection\"]/button"));
         buttonLocator.click();
-        Assertions.assertTrue(true, "Возможность нажатия кнопки <Продолжить> не заполнив поле <Сумма>");
+        Assertions.assertTrue(true);
     }
 }
